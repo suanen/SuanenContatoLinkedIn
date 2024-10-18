@@ -1,0 +1,212 @@
+/* Estilo global */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ede9e3; /* Cor de fundo */
+}
+/* Centralizando o título do cabeçalho */
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0;
+    font-family: 'Montserrat';
+    color: #28532a;
+}
+
+/* Menu de Navegação */
+.navbar {
+    background-color: #aaab96; /* Cor esverdeada */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: #4CAF50; /* Cor ao passar o mouse */
+}
+/*imagem carrossel*/
+.carousel {
+    position: relative;
+    width: 100%;
+    max-height: 400px; /* Ajuste a altura conforme necessário */
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Ajuste a altura conforme necessário */
+}
+
+.carousel-images img {
+    display: none; /* Esconde todas as imagens inicialmente */
+}
+
+.carousel-images img.active {
+    display: block; /* Mostra a imagem ativa */
+}
+/*sobre mim*/
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #ede9e3; /* Cor de fundo */
+}
+
+.sobre-texto {
+    flex: 1;
+    margin-right: 20px; /* Espaço entre texto e imagem */
+}
+
+.sobre-imagem {
+    flex: 1;
+}
+
+.sobre-imagem img {
+    width: 100%; /* Ajusta a imagem para ocupar 100% do espaço disponível */
+    border: 5px solid #aaab96; /* Borda da imagem */
+    border-radius: 8px; /* Cantos arredondados */
+}
+/*cursos e formação*/
+.cursos {
+    padding: 40px;
+    background-color: #f7f7f7; /* Fundo da seção */
+}
+
+.cursos h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.curso {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Espaço entre os cursos */
+    padding: 10px;
+    border: 1px solid #aaab96; /* Borda ao redor de cada curso */
+    border-radius: 8px; /* Cantos arredondados */
+    background-color: #ffffff; /* Fundo branco para os cursos */
+}
+
+.curso img {
+    width: 50px; /* Tamanho do logo */
+    height: auto;
+    margin-right: 20px; /* Espaço entre logo e texto */
+}
+
+.curso h3 {
+    margin: 0; /* Remove margens do título */
+    color: #28532a;
+}
+/* Experiencia profissional*/
+.experiencia {
+    padding: 40px;
+    background-color: #f7f7f7; /* Fundo da seção */
+}
+
+.experiencia h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.experiencia-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Espaço entre as experiências */
+}
+
+.logo-empresa {
+    width: 100px; /* Tamanho do logo da empresa */
+    height: auto;
+    margin-right: 20px; /* Espaço entre logo e texto */
+}
+
+.descricao {
+    background-color: #ffffff; /* Fundo branco para a descrição */
+    padding: 20px; /* Espaçamento interno da descrição */
+    border: 1px solid #aaab96; /* Borda ao redor da descrição */
+    border-radius: 8px; /* Cantos arredondados */
+    flex: 1; /* Ocupa o restante do espaço disponível */
+}
+
+.descricao h3 {
+    margin: 0; /* Remove margens do título */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+    color: #28532a;
+}
+/*projetos*/
+#Projetos {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f8f8f8; /* Cor de fundo para destacar a seção */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+#Projetos h2 {
+    font-size: 24px;
+    color: #333; /* Cor do título */
+}
+
+#Projetos p {
+    font-size: 18px;
+    line-height: 1.6; /* Melhor legibilidade */
+}
+/*contatos*/
+#Contatos {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f8f8f8; /* Cor de fundo para destacar a seção */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+#Contatos h2 {
+    font-size: 24px;
+    color: #333; /* Cor do título */
+}
+
+#Contatos p {
+    font-size: 18px;
+    line-height: 1.6; /* Melhor legibilidade */
+}
+
+#Contatos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#Contatos ul li {
+    margin: 5px 0;
+}
+
+#Contatos ul li a {
+    color: #4caf50; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+#Contatos ul li a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
